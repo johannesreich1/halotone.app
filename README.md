@@ -4,8 +4,8 @@ Halotone's website at https://halotone.app, served by GitHub Pages from `main`: 
 page, its support page (`/support/`), and its privacy policy (`/privacy/`), in English and
 German. The app's Support sheet and the App Store listing link to the last two.
 
-Plain HTML and one stylesheet, no build step; the same look as johannesreich.info, whose
-Impressum every page links to. Support mail to support@halotone.app is forwarded to
+Plain HTML and one stylesheet, no build step. `/impressum/` is the legal notice German
+law asks for, linked from every page. Support mail to support@halotone.app is forwarded to
 contact@johannesreich.info.
 
 DNS lives at IONOS: GitHub's A and AAAA records on the apex, `www` as a CNAME to
