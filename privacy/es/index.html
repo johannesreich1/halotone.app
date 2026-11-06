@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Privacidad de Halotone</title>
+  <meta name="description" content="Política de privacidad de Halotone y de este sitio web.">
+  <link rel="icon" href="/assets/favicon.png">
+  <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
+  <link rel="stylesheet" href="/assets/site.css">
+</head>
+<body>
+  <div class="page">
+    <header class="site">
+      <a class="home" href="/">Halotone</a>
+      <nav>
+        <a href="/support/">Soporte</a>
+        <a href="/privacy/es/" aria-current="page">Privacidad</a>
+      </nav>
+    </header>
+    <main>
+      <h1>Política de privacidad</h1>
+      <p class="updated">Halotone y halotone.app · Última actualización: 6 de noviembre de 2026</p>
+      <p class="lang"><a href="/privacy/" lang="en">English</a> · <a href="/privacy/#deutsch" lang="de">Deutsch</a> · <a href="/privacy/cs/" lang="cs">Čeština</a> · <a href="/privacy/el/" lang="el">Ελληνικά</a> · <a href="/privacy/fr/" lang="fr">Français</a> · <a href="/privacy/hu/" lang="hu">Magyar</a> · <a href="/privacy/id/" lang="id">Bahasa Indonesia</a> · <a href="/privacy/it/" lang="it">Italiano</a> · <a href="/privacy/ja/" lang="ja">日本語</a> · <a href="/privacy/ko/" lang="ko">한국어</a> · <a href="/privacy/nl/" lang="nl">Nederlands</a> · <a href="/privacy/pl/" lang="pl">Polski</a> · <a href="/privacy/pt-br/" lang="pt-BR">Português (Brasil)</a> · <a href="/privacy/ro/" lang="ro">Română</a> · <a href="/privacy/ru/" lang="ru">Русский</a> · <a href="/privacy/sv/" lang="sv">Svenska</a> · <a href="/privacy/th/" lang="th">ไทย</a> · <a href="/privacy/tr/" lang="tr">Türkçe</a> · <a href="/privacy/uk/" lang="uk">Українська</a> · <a href="/privacy/vi/" lang="vi">Tiếng Việt</a> · <a href="/privacy/zh-hant/" lang="zh-Hant">繁體中文</a></p>
+      <p class="updated">Esta es una traducción de las versiones en inglés y alemán, que prevalecen si hay diferencias.</p>
+      <p class="lede">Halotone no tiene anuncios, ni analítica, ni seguimiento, y tus canciones se quedan en tu dispositivo a menos que compartas alguna. Compartir es opcional; esta página explica qué se guarda.</p>
+
+      <h2>Responsable</h2>
+      <address>
+        Johannes Reich<br>
+        Krumpterstraße 4<br>
+        81543 München, Alemania<br>
+        <a href="mailto:support@halotone.app">support@halotone.app</a>
+      </address>
+
+      <h2>La app</h2>
+      <ul>
+        <li><strong>Nada sale de tu dispositivo a menos que uses la función de compartir canciones.</strong> La app no tiene inicio de sesión, ni anuncios, ni analítica, ni código de terceros que recopile datos.</li>
+        <li><strong>Las canciones y los ajustes</strong> se guardan en tu dispositivo a menos que compartas una canción. iOS puede incluirlos en la copia de seguridad de tu dispositivo en iCloud o en un ordenador, que Apple gestiona según su propia política de privacidad.</li>
+        <li><strong>Halotone Plus</strong> se compra en el App Store de Apple. Apple procesa el pago; nunca veo tu nombre, tu cuenta de Apple ni tus datos de pago. La app solo pregunta al App Store si Plus está desbloqueado.</li>
+        <li><strong>Informes de fallos.</strong> Si elegiste en iOS compartir análisis con los desarrolladores de apps, Apple puede enviarme informes de fallos y estadísticas de uso que no te identifican. Puedes desactivarlo en Ajustes › Privacidad y seguridad › Análisis y mejoras.</li>
+        <li><strong>Pruebas beta.</strong> Si pruebas Halotone mediante TestFlight, Apple me transmite los comentarios que envías, junto con los datos que Apple indica en TestFlight.</li>
+      </ul>
+
+      <h2>Compartir canciones</h2>
+      <p>Compartir es opcional, y esta sección solo se aplica si lo usas. Las <a href="/rules/es/">Normas de la comunidad</a> se aplican a todo lo que compartes.</p>
+      <ul>
+        <li><strong>Qué contiene una canción compartida.</strong> Cuando compartes una canción, Halotone la envía a mi servidor: la canción en sí (sus sonidos, tempo y tonalidad), el título y el nombre artístico que elegiste, unos 30 segundos de su audio, una imagen de sus puntos, si aparece en Descubrir y cuándo la compartiste. El servidor añade cuántas reproducciones y votos a favor tiene, y una huella de la canción para la comprobación de copias. Cualquiera con el enlace puede escucharla y ver su título y nombre artístico, y todo el mundo puede hacerlo en Descubrir.</li>
+        <li><strong>Tu ID de creador.</strong> La primera vez que compartes, votas o denuncias una canción, o bloqueas a un artista, el servidor da a la app un ID y un secreto aleatorios, que se guardan en tu Llavero de iCloud. El servidor guarda el ID, un hash del secreto y cuándo se creó. Están vinculados a tu nombre artístico, tus canciones, votos, denuncias y bloqueos, con la hora de cada uno, pero nunca a tu nombre real, tu correo ni tu cuenta de Apple.</li>
+        <li><strong>Comprobación del dispositivo.</strong> Cuando compartes, la app usa App Attest de Apple para demostrar que es la app real de Halotone en un dispositivo real. El servidor guarda la clave pública de este dispositivo y un contador con tu ID de creador, y un desafío de un solo uso hasta que se utiliza o caduca. Apple no me transmite datos personales para esto.</li>
+        <li><strong>Halotone Plus.</strong> Si compartes más de tres canciones a la vez, el servidor pregunta a Apple si la compra de Plus en la app es válida, usando su número de transacción, y guarda ese número y la hora de la comprobación con tu ID de creador. No veo tu nombre, tu cuenta de Apple ni tus datos de pago.</li>
+        <li><strong>Escuchar.</strong> Al abrir una canción compartida o Descubrir, se carga desde el servidor. Si tienes un ID de creador, la app lo envía para que se apliquen tus votos y bloqueos. Las reproducciones se cuentan sin saber quién escuchó. La página del enlace de una canción lee el idioma de tu navegador para elegir inglés o alemán y no lo guarda.</li>
+        <li><strong>Portapapeles.</strong> En el primer inicio, la app solo comprueba si el portapapeles parece contener un enlace, sin leerlo. Solo lee el portapapeles si tocas Pegar, y entonces abre la canción de ese enlace.</li>
+        <li><strong>Dónde se guarda.</strong> En Cloudflare (Cloudflare, Inc., EE. UU.), que trata los datos en mi nombre según su acuerdo de tratamiento de datos y almacena las canciones y sus datos en la UE. Cloudflare trata las direcciones IP para entregar las páginas y limitar los abusos, y conserva los registros del servidor hasta siete días.</li>
+        <li><strong>Por qué.</strong> Para ofrecer la función de compartir que solicitas (art. 6(1)(b) RGPD), y por mi interés legítimo en protegerla de abusos, incluida la moderación de denuncias (art. 6(1)(f) RGPD).</li>
+        <li><strong>Durante cuánto tiempo.</strong> Una canción compartida permanece hasta que dejas de compartirla o eliminas tu nombre. Cuando dejas de compartir una canción, su audio, imagen, datos y título se eliminan de inmediato. Solo quedan su código, tu ID de creador, la hora y una huella, para que el límite diario y la comprobación de copias sigan funcionando. <strong>Eliminar mi nombre y mis canciones</strong> en Descubrir › Tus canciones elimina de inmediato tu nombre artístico, canciones, votos, denuncias, bloqueos, clave de dispositivo y número de transacción.</li>
+        <li><strong>Denuncias.</strong> Si denuncias una canción, el servidor guarda el motivo con tu ID de creador, para que cada persona cuente una sola vez. Veo el motivo y la canción, no quién la denunció. Puedo retirar canciones que incumplan las normas e impedir que un ID de creador comparta. Un correo diario me indica solo cuántas denuncias llegaron y cuántas canciones están ocultas. Resend (Resend, Inc., EE. UU.) lo entrega y solo ve esas cifras y mi dirección.</li>
+      </ul>
+
+      <h2>Este sitio web</h2>
+      <p>halotone.app está alojado en GitHub Pages (GitHub, Inc., EE. UU.) y se entrega a través de Cloudflare (Cloudflare, Inc., EE. UU.). Ambos registran la dirección IP de cada visitante por motivos de seguridad; consulta la <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">declaración de privacidad de GitHub</a> y la <a href="https://www.cloudflare.com/privacypolicy/">política de privacidad de Cloudflare</a>. La base jurídica es mi interés legítimo en un sitio web seguro (art. 6(1)(f) RGPD). El sitio no usa cookies, ni analítica, ni fuentes externas.</p>
+
+      <h2>Correo electrónico</h2>
+      <p>Si me escribes, uso tu dirección y tu mensaje solo para responderte (art. 6(1)(b) y (f) RGPD). El correo a support@halotone.app llega a IONOS SE en Alemania y se reenvía a mi buzón de iCloud Mail en Apple. Elimino los mensajes cuando ya no son necesarios.</p>
+
+      <h2>Tus derechos</h2>
+      <p>Según el RGPD, puedes solicitar el acceso a tus datos, su rectificación, supresión o la limitación de su tratamiento, oponerte a su tratamiento y pedirlos en un formato portátil. También puedes reclamar ante una autoridad de protección de datos, por ejemplo la autoridad bávara (BayLDA). A menos que compartas, votes o denuncies canciones, o bloquees a un artista, no tengo datos sobre ti; para cualquier otra cosa, escríbeme.</p>
+
+      <h2>Cambios</h2>
+      <p>Si esta política cambia, la nueva versión aparecerá aquí con una nueva fecha.</p>
+    </main>
+    <footer class="site">
+      <span>© 2026 Johannes Reich</span>
+      <a href="/impressum/">Impressum</a>
+      <a href="/privacy/es/">Privacidad</a>
+      <a href="/rules/es/">Normas de la comunidad</a>
+    </footer>
+  </div>
+</body>
+</html>
