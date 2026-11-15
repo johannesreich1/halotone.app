@@ -5,8 +5,8 @@ Cloudflare: the app's page, its support page (`/support/`), its privacy policy (
 and its Community Rules (`/rules/`). The app's Support sheet, Share sheet, and App Store
 listing link to these; the app opens each in the phone's language.
 
-The support page, privacy policy and Community Rules are in all 22 app languages, one page per
-language: English at `support/`, `privacy/` and `rules/`, the other 21 in `support/<lang>/`,
+The support page, privacy policy and Community Rules are in all 23 app languages, one page per
+language: English at `support/`, `privacy/` and `rules/`, the other 22 in `support/<lang>/`,
 `privacy/<lang>/` and `rules/<lang>/`. All of them are generated: edit them in `docs/site-drafts/`
 of the app's repository and run `build_pages.py`, not here. German was a part of the English
 pages under `#deutsch` until 13 November 2026; app builds through 77 link there, so the English
